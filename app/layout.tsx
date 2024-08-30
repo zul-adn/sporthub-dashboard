@@ -1,13 +1,22 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Nunito } from "next/font/google";
+import "react-perfect-scrollbar/dist/css/styles.css";
+import "../styles/tailwind.css";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Raih ASN",
   description: "Capai Mimpimu Menjadi ASN yang berprestasi",
 };
+
+const nunito = Nunito({
+  weight: ["400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-nunito",
+});
 
 export default function RootLayout({
   children,
@@ -16,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={nunito.variable}>{children}</body>
     </html>
   );
 }
