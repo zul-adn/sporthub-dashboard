@@ -1,11 +1,10 @@
+import Dashboard from '@/module/dashboard'
 import React from 'react'
 
 type Props = {}
 
 const page = (props: Props) => {
-  return (
-    <div>page</div>
-  )
+  return <Dashboard />
 }
 
 export default page

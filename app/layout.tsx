@@ -4,6 +4,7 @@ import "./globals.css";
 import { Nunito } from "next/font/google";
 import "react-perfect-scrollbar/dist/css/styles.css";
 import "../styles/tailwind.css";
+import ProviderComponent from "@/components/layouts/provider-component";
 
 
 export const metadata: Metadata = {
@@ -25,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={nunito.variable}>{children}</body>
+      <body className={nunito.variable}> <ProviderComponent>{children}</ProviderComponent></body>
     </html>
   );
 }
