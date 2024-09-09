@@ -12,7 +12,7 @@ export async function middleware(request: NextRequest) {
   const authenticated = !!cookies().get(AUTH_COOKIE)?.value;
 
   if (!authenticated && cookies().get(REFRESH_COOKIE)) {
-    const refreshRes = await fetch(`${process.env.API_URL}/auth/refresh`, {
+    const refreshRes = await fetch(`${process.env.BASE_URL_API}/auth/refresh`, {
       headers: {
         Cookie: cookies().toString(),
       },

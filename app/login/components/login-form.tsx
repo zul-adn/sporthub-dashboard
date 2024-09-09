@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import React from "react";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
+import Login from "../login";
 
 const schema = yup.object().shape({
   email: yup.string().required("Email tidak boleh kosong"),
@@ -15,17 +16,17 @@ const schema = yup.object().shape({
 
 
 const LoginForm = () => {
-  const router = useRouter();
-    const { control, handleSubmit } = useForm({
+    const { control, handleSubmit, watch } = useForm({
       defaultValues: {
         email: "",
         password: "",
       },
       resolver: yupResolver(schema),
     });
+    const values = watch();
 
   const handleLogin = (e: any) => {
-console.log("login")
+   Login(values);
   };
 
   return (
