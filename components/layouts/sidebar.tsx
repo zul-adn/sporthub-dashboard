@@ -161,7 +161,7 @@ const Sidebar = () => {
                         duration={300}
                         height={currentMenu === menu.id ? "auto" : 0}>
                         <ul className="sub-menu text-gray-500">
-                          {menu.subMenu.map((submenu, index) => (
+                          {menu.subMenu.map((submenu: any, index) => (
                             <li key={index}>
                               <Link href={submenu.href}>{t(submenu?.label)}</Link>
                             </li>
