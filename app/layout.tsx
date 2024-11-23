@@ -8,8 +8,8 @@ import ProviderComponent from "@/components/layouts/provider-component";
 
 
 export const metadata: Metadata = {
-  title: "Raih ASN",
-  description: "Capai Mimpimu Menjadi ASN yang berprestasi",
+  title: "SportHub",
+  description: "Make everyone enjoy the sports",
 };
 
 const nunito = Nunito({

@@ -10,21 +10,22 @@ const unauthenticatedRoutes = ["/login"];
 
 export async function middleware(request: NextRequest) {
   const authenticated = !!cookies().get(AUTH_COOKIE)?.value;
+  
 
-  if (!authenticated && cookies().get(REFRESH_COOKIE)) {
-    const refreshRes = await fetch(`${process.env.BASE_URL_API}/auth/refresh`, {
-      headers: {
-        Cookie: cookies().toString(),
-      },
-      method: "POST",
-    });
-    const authCookies = getAuthCookie(refreshRes);
-    if (authCookies?.accessToken) {
-      const response = NextResponse.redirect(request.url);
-      response.cookies.set(authCookies.accessToken);
-      return response;
-    }
-  }
+  // if (!authenticated && cookies().get(REFRESH_COOKIE)) {
+  //   const refreshRes = await fetch(`${process.env.BASE_URL_API}/auth/refresh`, {
+  //     headers: {
+  //       Cookie: cookies().toString(),
+  //     },
+  //     method: "POST",
+  //   });
+  //   const authCookies = getAuthCookie(refreshRes);
+  //   if (authCookies?.accessToken) {
+  //     const response = NextResponse.redirect(request.url);
+  //     response.cookies.set(authCookies.accessToken);
+  //     return response;
+  //   }
+  // }
 
   if (
     !authenticated &&

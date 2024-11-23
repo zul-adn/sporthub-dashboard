@@ -1,0 +1,202 @@
+[
+    {
+        "id": "f0c03fbc-2dc3-49af-88e7-bef58c1b139f",
+        "question": "What is the result of 3 + 2?",
+        "choices": [
+            {
+                "id": "343840dd-92be-4e28-96aa-526901a9b736",
+                "text": "10"
+            },
+            {
+                "id": "1babb084-6048-40bc-b274-69fa83b9a1ca",
+                "text": "15"
+            },
+            {
+                "id": "342e5bee-b15f-4fca-a326-5bd26e116363",
+                "text": "17"
+            },
+            {
+                "id": "a3f4ac91-3328-4ed7-aca2-a229daade1df",
+                "text": "9"
+            }
+        ],
+        "answer": "343840dd-92be-4e28-96aa-526901a9b736",
+        "explanation": "The correct answer is 10 because it is the sum of the two numbers.",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": "25ed8b24-76d4-486e-b7b5-d1ea2329ed9b",
+        "question": "What is the result of 2 + 8?",
+        "choices": [
+            {
+                "id": "80adab79-5432-4549-bf96-cab03a12dbba",
+                "text": "4"
+            },
+            {
+                "id": "0f768df1-dcf5-4cf5-8e92-09d6f028ebbd",
+                "text": "15"
+            },
+            {
+                "id": "d224454c-a5ff-4527-8376-f7d78211bc18",
+                "text": "9"
+            },
+            {
+                "id": "cf735355-52cc-42c9-8e8d-2ec332c24332",
+                "text": "14"
+            }
+        ],
+        "answer": "d224454c-a5ff-4527-8376-f7d78211bc18",
+        "explanation": "The correct answer is 9 because it is the sum of the two numbers.",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": "84399275-d7e8-46bf-aa57-efa1190ee241",
+        "question": "What is the result of 6 + 10?",
+        "choices": [
+            {
+                "id": "bff8319c-6761-46a8-a5c1-6d2f37f401f8",
+                "text": "15"
+            },
+            {
+                "id": "244ae5e0-d644-4eb1-9cf9-225dfd13a84e",
+                "text": "19"
+            },
+            {
+                "id": "24cfeb86-57f5-42a4-9ac8-a3c44f9ac653",
+                "text": "24"
+            },
+            {
+                "id": "b511dffc-1f44-4839-bcb2-a0a32b23004b",
+                "text": "13"
+            }
+        ],
+        "answer": "bff8319c-6761-46a8-a5c1-6d2f37f401f8",
+        "explanation": "The correct answer is 15 because it is the sum of the two numbers.",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+    "id": "c3b21742-984e-4b0c-b838-c30d8bb60c34",
+    "question": "What is the first principle of Pancasila?",
+    "choices": [
+        {
+            "id": "e1df635e-22d6-454b-9e79-330bf2d84898",
+            "text": "Social justice for all Indonesians"
+        },
+        {
+            "id": "9c74340b-470f-43e9-88e9-88b1e5e7bcba",
+            "text": "Unity of Indonesia"
+        },
+        {
+            "id": "dbf7b37d-765b-4c97-b635-5b640c9e1cb8",
+            "text": "Belief in one God"
+        },
+        {
+            "id": "0a9b99ff-9e73-466a-987d-117c4374f3b6",
+            "text": "Democracy guided by the inner wisdom of deliberations among representatives"
+        }
+    ],
+    "answer": "dbf7b37d-765b-4c97-b635-5b640c9e1cb8",
+    "explanation": "The first principle of Pancasila is 'Belief in one God' (Ketuhanan yang Maha Esa).",
+    "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": "9a267f7d-39e7-44ab-9e19-3fe3bff69cc1",
+        "question": "Which of the following is the third principle of Pancasila?",
+        "choices": [
+            {
+                "id": "8c795ccf-8092-4733-9332-845c70d773d5",
+                "text": "Democracy guided by the inner wisdom of deliberations among representatives"
+            },
+            {
+                "id": "fd459ad9-1a14-4690-a35f-8e39c3d8f3bc",
+                "text": "Unity of Indonesia"
+            },
+            {
+                "id": "a56345cf-737f-4019-947e-d70c763649b1",
+                "text": "Humanitarianism that is just and civilised"
+            },
+            {
+                "id": "7635ec33-b909-46b9-b43c-98c12f9a5dcf",
+                "text": "Belief in one God"
+            }
+        ],
+        "answer": "fd459ad9-1a14-4690-a35f-8e39c3d8f3bc",
+        "explanation": "The third principle of Pancasila is 'Unity of Indonesia' (Persatuan Indonesia).",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": "61c82588-b60c-41b5-a6a7-bf3e72f77613",
+        "question": "What does the fifth principle of Pancasila focus on?",
+        "choices": [
+            {
+                "id": "b2515c88-9e0c-4f15-8e4f-7733a343edf8",
+                "text": "Social justice for all Indonesians"
+            },
+            {
+                "id": "5d51e43b-2a7c-474e-8b68-41b9f9d40aa4",
+                "text": "Unity of Indonesia"
+            },
+            {
+                "id": "003d50a6-e7e8-40e7-9cbb-bae36c9ed77d",
+                "text": "Humanitarianism that is just and civilised"
+            },
+            {
+                "id": "b68859b2-174e-41c1-8e8e-3f7fce1552cc",
+                "text": "Democracy guided by the inner wisdom of deliberations among representatives"
+            }
+        ],
+        "answer": "b2515c88-9e0c-4f15-8e4f-7733a343edf8",
+        "explanation": "The fifth principle of Pancasila is 'Social justice for all Indonesians' (Keadilan sosial bagi seluruh rakyat Indonesia).",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": "7d6d75d5-0ffb-41b1-b183-3e59fa4c7efb",
+        "question": "Which of the following is the second principle of Pancasila?",
+        "choices": [
+            {
+                "id": "e1c1f857-3e5a-4b9d-8d91-40f9d7871b65",
+                "text": "Democracy guided by the inner wisdom of deliberations among representatives"
+            },
+            {
+                "id": "d07356ea-86a6-48a9-8162-0c45bb6db8a7",
+                "text": "Belief in one God"
+            },
+            {
+                "id": "05fa5580-9e67-4202-84ff-3c4520c51bb2",
+                "text": "Humanitarianism that is just and civilised"
+            },
+            {
+                "id": "29a995fa-fbdd-4b27-9e09-991547508f90",
+                "text": "Social justice for all Indonesians"
+            }
+        ],
+        "answer": "05fa5580-9e67-4202-84ff-3c4520c51bb2",
+        "explanation": "The second principle of Pancasila is 'Humanitarianism that is just and civilised' (Kemanusiaan yang adil dan beradab).",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": "4a529b94-72d0-4c9a-8c7c-77cbbe658929",
+        "question": "Which principle of Pancasila represents democracy?",
+        "choices": [
+            {
+                "id": "e42c1193-b013-4f59-8083-41ff3c730d4d",
+                "text": "Democracy guided by the inner wisdom of deliberations among representatives"
+            },
+            {
+                "id": "f839e7de-4134-4f4e-96c4-cc241e612379",
+                "text": "Belief in one God"
+            },
+            {
+                "id": "bc2a6503-e5f6-4b1a-8b91-40ce4b056ae1",
+                "text": "Humanitarianism that is just and civilised"
+            },
+            {
+                "id": "708f28ad-f26a-4a6c-805f-bc2513a3c982",
+                "text": "Unity of Indonesia"
+            }
+        ],
+        "answer": "e42c1193-b013-4f59-8083-41ff3c730d4d",
+        "explanation": "The fourth principle of Pancasila is 'Democracy guided by the inner wisdom of deliberations among representatives' (Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan perwakilan).",
+        "image": "https://via.placeholder.com/150"
+    }
+]

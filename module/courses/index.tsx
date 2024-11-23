@@ -1,13 +1,13 @@
 import {CourseList} from "@/data-sample/datas";
-import {CourseCard} from "@/module/my-course/components/card";
+import {CourseCard} from "@/module/courses/components/card";
+import Container from '@/module/courses/components/Container';
 
 
-const Index = () => {
+export const Courses = () => {
     return (
-        <>
-            {CourseList.map((course, index) => (
-                <CourseCard key={index}  />
-            ))}
-        </>
+        <Container>
+            {CourseList.map((course, index) => <CourseCard key={index}/>)}
+
+        </Container>
     )
 }

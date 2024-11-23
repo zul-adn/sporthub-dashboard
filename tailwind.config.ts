@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const plugin = require('tailwindcss/plugin');
-const rotateX = plugin(function ({ addUtilities }) {
+const rotateX = plugin(function ({ addUtilities }: any) {
     addUtilities({
         '.rotate-y-180': {
             transform: 'rotateY(180deg)',
@@ -8,7 +8,7 @@ const rotateX = plugin(function ({ addUtilities }) {
     });
 });
 module.exports = {
-    content: ['./App.tsx', './app/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './src/**/*.{js,ts,jsx,tsx}'],
+    content: ['./App.tsx', './app/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './src/**/*.{js,ts,jsx,tsx}',  './module/**/*.{js,ts,jsx,tsx}'],
     darkMode: 'class',
     theme: {
         container: {
@@ -76,7 +76,7 @@ module.exports = {
             boxShadow: {
                 '3xl': '0 2px 2px rgb(224 230 237 / 46%), 1px 6px 7px rgb(224 230 237 / 46%)',
             },
-            typography: ({ theme }) => ({
+            typography: ({ theme }: any) => ({
                 DEFAULT: {
                     css: {
                         '--tw-prose-invert-headings': theme('colors.white.dark'),

@@ -34,7 +34,7 @@ export default function DefaultLayout({
             {/* END TOP NAVBAR */}
 
             {/* BEGIN CONTENT AREA */}
-            {/* <ContentAnimation>{children}</ContentAnimation> */}
+             <ContentAnimation>{children}</ContentAnimation>
             {/* END CONTENT AREA */}
 
             {/* BEGIN FOOTER */}

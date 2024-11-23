@@ -12,5 +12,7 @@ export default configureStore({
 });
 
 export type IRootState = ReturnType<typeof rootReducer>;
+// @ts-ignore
 export type RootState = ReturnType<IRootState['getState']>
+// @ts-ignore
 export type AppDispatch = IRootState['dispatch']
