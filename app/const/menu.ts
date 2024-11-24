@@ -1,7 +1,23 @@
+import IconMenuDashboard from "@/components/icon/menu/icon-menu-dashboard"
+
 export const mainMenu = [
     {
         id: 'dsb',
         label: 'Dashboard',
+        href: '/',
+        icon: '<IconMenuDashboard className="shrink-0 group-hover:!text-primary" />',
+        subMenu: []
+    },
+    {
+        id: 'raa',
+        label: 'Role & Akses',
+        href: '/',
+        icon: '<IconMenuDashboard className="shrink-0 group-hover:!text-primary" />',
+        subMenu: []
+    },
+    {
+        id: 'raa',
+        label: 'Venue',
         href: '/',
         icon: '<IconMenuDashboard className="shrink-0 group-hover:!text-primary" />',
         subMenu: []

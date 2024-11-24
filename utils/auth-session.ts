@@ -5,8 +5,6 @@ import { AUTH_COOKIE } from "./auth-cookie";
 import { redirect } from "next/navigation";
 
 export const setSession = async (accessToken: string) => {
-  
-
   try {
     "use server";
     cookies().set(AUTH_COOKIE, accessToken, {
@@ -23,8 +21,15 @@ export const setSession = async (accessToken: string) => {
 };
 
 export const clearSession = async () => {
-  "use server";
-  cookies().delete(AUTH_COOKIE);
+  try{
+    "use server";
+    cookies().delete(AUTH_COOKIE);
+  }catch(error) {
+    console.log(error)
+  }finally{
+    redirect("/login")
+  }
+ 
 };
 
 export const getCookies = () => {

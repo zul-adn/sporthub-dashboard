@@ -46,9 +46,13 @@ export const AuthPageSlice = createSlice({
                 state.loading = true;
             })
             .addCase(login.fulfilled, (state, action) => {
+                console.log(action.payload?.data.data.user)
                 state.loading = false;
-                state.profile = action.payload?.data.data?.user
-                if(action.payload) setSession(action.payload?.data.data?.token)
+                
+                if(action.payload){ 
+                    state.profile = action.payload?.data.data?.user
+                    setSession(action.payload?.data.data?.token)
+                }
             })
             .addCase(login.rejected, (state) => {
                 state.loading = false;
